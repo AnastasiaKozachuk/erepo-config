@@ -25,7 +25,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/erepo_accounts?currentSchema=erepo_default
     username: postgres
-    password: {cipher}ab6f8514bcde51cd27c20f91c14af26781a6d4753441508606e93a842becb8d3
+    password: "{cipher}"ab6f8514bcde51cd27c20f91c14af26781a6d4753441508606e93a842becb8d3
   jpa:
     properties:
       hibernate:
